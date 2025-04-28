@@ -131,7 +131,7 @@ function FooterSec() {
       speak("Opening chatgpt...");
     } else {
       window.open(`https://www.google.com/search?q=${message.replace(" ", "+")}`, "_blank");
-      speak("I found some information for ccc " + message);
+      speak("I found some information for " + message);
     }
   };
 
